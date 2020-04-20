@@ -14,6 +14,9 @@
   .top__song
     ＜楽曲一覧＞
     .top__song__list
+      - @bands.each do |band|
+        = band.name
+        %br
       .top__song__list--original
         オリジナル楽曲
       .top__song__list--cover
