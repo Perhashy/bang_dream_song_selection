@@ -19,12 +19,10 @@
         %br
       .top__song__list--original
         オリジナル楽曲
+        %br
         - @songs.each do |song|
           = song.name
-          = song.easy
-          = song.normal
-          = song.hard
-          = song.expert
-          = song.band_id
+          = song.band
+          %br
       .top__song__list--cover
         カバー楽曲
