@@ -146,5 +146,39 @@ Song.create!(
     {title: "TWiNKLE CiRCLE"                , easy: 9, normal: 15, hard: 19, expert: 25, band_id: 8, style: 1, delivery: "2020/02/22"},
     {title: "ひとりじゃないんだから"            , easy: 7, normal: 13, hard: 18, expert: 25, band_id: 8, style: 1, delivery: "2018/09/23"},
 
+
+    #Poppin'Partyカバー
+    {title: "空色デイズ"                      , easy: 5, normal: 12, hard: 18, expert: 26, band_id: 1, style: 2, delivery: "2017/03/16"},
+    {title: "Alchemy"                       , easy: 7, normal: 12, hard: 17, expert: 26, band_id: 1, style: 2, delivery: "2017/03/16"},
+    {title: "光るなら"                       , easy: 7, normal: 13, hard: 18, expert: 23, band_id: 1, style: 2, delivery: "2017/03/27"},
+    {title: "Little Busters!"               , easy: 7, normal: 13, hard: 17, expert: 25, band_id: 1, style: 2, delivery: "2017/04/24"},
+    {title: "正解はひとつ!じゃない!!"          , easy: 7, normal: 13, hard: 18, expert: 25, band_id: 8, style: 2, delivery: "2017/04/30"},
+    {title: "天体観測"                       , easy: 7, normal: 14, hard: 17, expert: 26, band_id: 8, style: 2, delivery: "2017/05/02"},
+    {title: "God knows…"                    , easy: 10, normal: 15, hard: 21, expert: ,28 special: 26, band_id: 1, style: 2, delivery: "2017/07/11"},
+    {title: "only my railgun"               , easy: 9, normal: 15, hard: 19, expert: 26, band_id: 1, style: 2, delivery: "2017/08/26"},
+    {title: "千本桜"                         , easy: 8, normal: 14, hard: 19, expert: 26, band_id: 1, style: 2, delivery: "2017/11/10"},
+    {title: "君じゃなきゃダメみたい"            , easy: 8, normal: 14, hard: 17, expert: 25, band_id: 1, style: 2, delivery: "2018/01/03"},
+    {title: "メランコリック"                   , easy: 8, normal: 13, hard: 17, expert: 24, band_id: 1, style: 2, delivery: "2018/01/31"},
+    {title: "GLAMOROUS SKY"                 , easy: 8, normal: 15, hard: 17, expert: 26, band_id: 1, style: 2, delivery: "2018/03/18"},
+    {title: "DAYS"                          , easy: 8, normal: 13, hard: 18, expert: 25, band_id: 1, style: 2, delivery: "2018/06/30"},
+    {title: "Life Will Change"              , easy: 7, normal: 12, hard: 19, expert: 26, band_id: 1, style: 2, delivery: "2018/07/20"},
+    {title: "夏祭り"                         , easy: 8, normal: 12, hard: 20, expert: 25, band_id: 1, style: 2, delivery: "2018/07/31"},
+    {title: "ロミオとシンデレラ"               , easy: 7, normal: 14, hard: 18, expert: 25, band_id: 1, style: 2, delivery: "2018/08/26"},
+    {title: "君に届け"                       , easy: 7, normal: 13, hard: 18, expert: 25, band_id: 1, style: 2, delivery: "2018/10/20"},
+    {title: "Wake up!"                      , easy: 7, normal: 14, hard: 19, expert: 26, band_id: 1, style: 2, delivery: "2018/12/31"},
+    {title: "夜行性ハイズ"                    , easy: 7, normal: 12, hard: 18, expert: 25, band_id: 1, style: 2, delivery: "2019/02/04"},
+    {title: "オトモダチフィルム"               , easy: 9, normal: 14, hard: 18, expert: 25, band_id: 1, style: 2, delivery: "2019/02/10"},
+    {title: "檄！帝国華撃団"                  , easy: 10, normal: 14, hard: 18, expert: 26, band_id: 8, style: 2, delivery: "2019/03/17"},
+    {title: "Daydream café"                 , easy: 10, normal: 14, hard: 19, expert: 25, band_id: 1, style: 2, delivery: "2019/04/26"},
+    {title: "チェリボム"                      , easy: 7, normal: 15, hard: 19, expert: 26, band_id: 1, style: 2, delivery: "2019/05/13"},
+    {title: "ディスカバリー！"                 , easy: 7, normal: 14, hard: 18, expert: 25, band_id: 1, style: 2, delivery: "2019/06/07"},
+    {title: "ミュージック・アワー"             , easy: 8, normal: 13, hard: 17, expert: 25, band_id: 1, style: 2, delivery: "2019/07/27"},
+    {title: "ブルーバード"                    , easy: 10, normal: 14, hard: 18, expert: 25, band_id: 1, style: 2, delivery: "2019/10/31"},
+    {title: "創聖のアクエリオン"               , easy: 7, normal: 13, hard: 17, expert: 25, band_id: 8, style: 2, delivery: "2019/12/31"},
+    {title: "群青日和"                       , easy: 8, normal: 13, hard: 17, expert: 26, band_id: 1, style: 2, delivery: "2020/03/28"},
+
+    #Afterglowカバー
+    # {title: ""           , easy: , normal: , hard: , expert: , special: , band_id: 1, style: 2, delivery: "2019/03/16"},
+
   ]
 )
