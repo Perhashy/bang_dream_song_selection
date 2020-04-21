@@ -1,5 +1,6 @@
 Song.create!(
   [
+    #Poppin'Partyオリジナル
     {title: "ときめきエクスペリエンス！"           , easy: 8, normal: 13, hard: 16, expert: 25, band_id: 1, style: 1, delivery: "2017/03/16"},
     {title: "キラキラだとか夢だとか〜Sing Girils〜", easy: 8, normal: 14, hard: 17, expert: 25, special: 26, band_id: 1, style: 1, delivery: "2017/03/16"},
     {title: "Yes！BanG_Dream！"                , easy: 5, normal: 10, hard: 15, expert: 20, band_id: 1, style: 1, delivery: "2017/03/16"},
@@ -43,11 +44,32 @@ Song.create!(
     {title: "Don’t be afraid"                 , easy: 6, normal: 12, hard: 16, expert: 25, band_id: 8, style: 1, delivery: "2017/03/25"},
     {title: "HappyHappyParty！"               , easy: 6, normal: 12, hard: 17, expert: 23, band_id: 1, style: 1, delivery: "2017/03/16"},
     {title: "夏のドーン！"                      , easy: 8, normal: 14, hard: 17, expert: 24, band_id: 1, style: 1, delivery: "2017/08/10"},
+    #キャラソン
     {title: "どきどきSINGOUT！"                 , easy: 8, normal: 14, hard: 18, expert: 24, band_id: 8, style: 1, delivery: "2017/06/05"},
     {title: "花園電気ギター！！！"               , easy: 10, normal: 14, hard: 18, expert: 26, band_id: 8, style: 1, delivery: "2017/07/19"},
     {title: "チョコレイトの低音レシピ"            , easy: 6, normal: 13, hard: 17, expert: 25, band_id: 8, style: 1, delivery: "2017/08/28"},
     {title: "遠い音楽〜ハートビート〜"            , easy: 7, normal: 13, hard: 18, expert: 25, band_id: 8, style: 1, delivery: "2017/10/04"},
     {title: "す、好きなんかじゃない！"            , easy: 8, normal: 13, hard: 17, expert: 25, band_id: 8, style: 1, delivery: "2017/11/06"},
+
+    #Afterglowオリジナル
+    {title: "That Is How I Roll"              , easy: 7, normal: 13, hard: 16, expert: 24, special: 26, band_id: 2, style: 1, delivery: "2017/03/16"},
+    {title: "True color"                      , easy: ,6 normal: 13, hard: 16, expert: 25, band_id: 2, style: 1, delivery: "2017/03/16"},
+    {title: "Scarlet Sky"                     , easy: 6, normal: 12, hard: 17, expert: 26, special: 26, band_id: 2, style: 1, delivery: "2017/05/11"},
+    {title: "Hey-day狂騒曲(カプリチオ)"          , easy: 10, normal: 15, hard: 20, expert: 28, band_id: 2, style: 1, delivery: "2017/08/21"},
+    {title: "Y.O.L.O！！！！！"                 , easy: 8, normal: 14, hard: 19, expert: 26, band_id: 2, style: 1, delivery: "2017/12/09"},
+    {title: "Jamboree!Journey!"               , easy: 7, normal: 13, hard: 18, expert: 25, band_id: 2, style: 1, delivery: "2018/03/21"},
+    {title: "COMIC PANIC!!!"                  , easy: 11, normal: 15, hard: 19, expert: 26, band_id: 2, style: 1, delivery: "2018/08/03"},
+    {title: "ツナグ、ソラモヨウ"                 , easy: 8, normal: 14, hard: 18, expert: 26, band_id: 2, style: 1, delivery: "2018/09/10"},
+    {title: "ランブリングメモリー"               , easy: 7, normal: 12, hard: 17, expert: 23, band_id: 2, style: 1, delivery: "2018/11/30"},
+    {title: "ON YOUR MARK"                    , easy: 9, normal: 15, hard: 21, expert: 26, band_id: 2, style: 1, delivery: "2019/04/05"},
+    {title: "いつも通りのBrand new days"        , easy: 9, normal: 14, hard: 18, expert: 25, band_id: 2, style: 1, delivery: "2019/04/10"},
+    {title: "Easy come,Easy go！"             , easy: 7, normal: 13, hard: 18, expert: 26, band_id: 2, style: 1, delivery: "2019/07/21"},
+    {title: "Sasanqua"                        , easy: 7, normal: 14, hard: 18, expert: 26, band_id: 2, style: 1, delivery: "2019/10/21"},
+    {title: "ON YOUR MARK FULL"               , easy: 10, normal: 16, hard: 22, expert: 27, band_id: 2, style: 1, delivery: "2019/10/25"},
+    {title: "I love your way！"               , easy: 9, normal: 14, hard: 21, expert: 26, band_id: 2, style: 1, delivery: "2020/02/29"},
+
+    #Pastel＊Palettesオリジナル
+    {title: ""            , easy: , normal: , hard: , expert: , special: , band_id: 3, style: 1, delivery: "2017/03/16"},
 
   ]
 )
