@@ -88,7 +88,33 @@ Song.create!(
     {title: "Winking☆Cheer"                  , easy: 7, normal: 13, hard: 17, expert: 23, band_id: 3, style: 1, delivery: "2020/04/20"},
 
     #Roselia
-    # {title: ""            , easy: , normal: , hard: , expert: , special: , band_id: 3, style: 1, delivery: "2017/03/16"},
+    {title: "BLACK SHOUT"                    , easy: 6, normal: 13, hard: 16, expert: 25, special: 26, band_id: 4, style: 1, delivery: "2017/03/16"},
+    {title: "Re:birthday"                    , easy: 7, normal: 11, hard: 19, expert: 28, band_id: 4, style: 1, delivery: "2017/03/16"},
+    {title: "LOUDER"                         , easy: 7, normal: 12, hard: 19, expert: 27, band_id: 4, style: 1, delivery: "2017/04/05"},
+    {title: "陽だまりロードナイト"              , easy: 7, normal: 11, hard: 17, expert: 25, special: 25, band_id: 4, style: 1, delivery: "2017/06/21"},
+    {title: "熱色スターマイン"                  , easy: 10, normal: 14, hard: 20, expert: 26, band_id: 4, style: 1, delivery: "2017/08/25"},
+    {title: "-HEROIC ADVENT-"                , easy: 9, normal: 14, hard: 19, expert: 26, band_id: 4, style: 1, delivery: "2017/10/08"},
+    {title: "Determination Symphony"         , easy: 7, normal: 13, hard: 21, expert: 27, band_id: 4, style: 1, delivery: "2017/10/11"},
+    {title: "ONENESS"                        , easy: 8, normal: 13, hard: 18, expert: 27, special: 26, band_id: 4, style: 1, delivery: "2018/01/13"},
+    {title: "Opera of the wasteland"         , easy: 8, normal: 14, hard: 20, expert: 28, band_id: 4, style: 1, delivery: "2018/01/22"},
+    {title: "軌跡"                            , easy: 6, normal: 11, hard: 16, expert: 21, band_id: 4, style: 1, delivery: "2018/03/31"},
+    {title: "Neo-Aspect"                     , easy: 9, normal: 14, hard: 19, expert: 26, band_id: 4, style: 1, delivery: "2018/05/21"},
+    {title: "Legendary"                      , easy: 8, normal: 13, hard: 18, expert: 25, band_id: 4, style: 1, delivery: "2018/05/26"},
+    {title: "Sanctuary"                      , easy: 9, normal: 14, hard: 18, expert: 25, band_id: 4, style: 1, delivery: "2018/08/20"},
+    {title: "R"                              , easy: 8, normal: 13, hard: 19, expert: 26, band_id: 4, style: 1, delivery: "2018/10/05"},
+    {title: "PASSIONATE ANTHEM"              , easy: 9, normal: 14, hard: 19, expert: 27, band_id: 4, style: 1, delivery: "2018/11/10"},
+    {title: "BRAVE JEWEL"                    , easy: 8, normal: 14, hard: 21, expert: 26, band_id: 4, style: 1, delivery: "2018/12/12"},
+    {title: "Safe and Sound"                 , easy: 7, normal: 12, hard: 17, expert: 24, band_id: 4, style: 1, delivery: "2019/01/10"},
+    {title: "Ringing Bloom"                  , easy: 12, normal: 16, hard: 23, expert: 28, band_id: 4, style: 1, delivery: "2019/02/19"},
+    {title: "FIRE BIRD"                      , easy: 9, normal: 14, hard: 18, expert: 27, band_id: 4, style: 1, delivery: "2019/04/22"},
+    {title: "約束"                            , easy: 7, normal: 13, hard: 18, expert: 25, band_id: 4, style: 1, delivery: "2019/06/11"},
+    {title: "”UNIONS”Road"                   , easy: 9, normal: 14, hard: 18, expert: 26, band_id: 4, style: 1, delivery: "2019/08/31"},
+    {title: "FIRE BIRD FULL"                 , easy: 10, normal: 15, hard: 19, expert: 28, band_id: 4, style: 1, delivery: "2020/01/23"},
+    {title: "Song I am."                     , easy: 8, normal: 15, hard: 21, expert: 27, band_id: 4, style: 1, delivery: "2020/02/10"},
+    {title: "Break your desire"              , easy: 8, normal: 15, hard: 19, expert: 26, band_id: 4, style: 1, delivery: "2020/02/25"},
+
+    #ハロー、ハッピーワールド！オリジナル
+    # {title: ""            , easy: , normal: , hard: , expert: , special: , band_id: 5, style: 1, delivery: "2017/03/16"},
 
   ]
 )
