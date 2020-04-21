@@ -114,7 +114,25 @@ Song.create!(
     {title: "Break your desire"              , easy: 8, normal: 15, hard: 19, expert: 26, band_id: 4, style: 1, delivery: "2020/02/25"},
 
     #ハロー、ハッピーワールド！オリジナル
-    # {title: ""            , easy: , normal: , hard: , expert: , special: , band_id: 5, style: 1, delivery: "2017/03/16"},
+    {title: "えがおのオーケストラっ！"           , easy: 6, normal: 11, hard: 16, expert: 23, special: 25, band_id: 5, style: 1, delivery: "2017/03/16"},
+    {title: "ハピネスっ！ハピィーマジカルっ♪"     , easy: 7, normal: 12, hard: 18, expert: 25, special: 26, band_id: 5, style: 1, delivery: "2017/03/16"},
+    {title: "ゴーカ！ごーかい！？ファントムシーフ！", easy: 7, normal: 14, hard: 19, expert: 27, special: 25, band_id: 5, style: 1, delivery: "2017/04/13"},
+    {title: "せかいのっびのびトレジャー！"        , easy: 8, normal: 14, hard: 20, expert: 26, special: 25, band_id: 5, style: 1, delivery: "2017/09/12"},
+    {title: "YAPPY！ SCHOOL CARNIVAL☆彡"      , easy: 9, normal: 14, hard: 18, expert: 25, band_id: 5, style: 1, delivery: "2017/09/24"},
+    {title: "わちゃ・もちゃ・ぺったん行進曲"      , easy: 8, normal: 13, hard: 18, expert: 26, band_id: 5, style: 1, delivery: "2017/12/20"},
+    {title: "ふわふわ☆ゆめいろサンドイッチ"       , easy: 7, normal: 13, hard: 17, expert: 24, band_id: 5, style: 1, delivery: "2018/04/20"},
+    {title: "ハイファイブ∞あどべんちゃっ"        , easy: 9, normal: 14, hard: 19, expert: 26, band_id: 5, style: 1, delivery: "2018/07/10"},
+    {title: "キミがいなくちゃっ！"              , easy: 9, normal: 14, hard: 17, expert: 25, band_id: 5, style: 1, delivery: "2018/10/10"},
+    {title: "はれやか すこやか ぴかりんりん♪"    , easy: 10, normal: 15, hard: 20, expert: 26, band_id: 5, style: 1, delivery: "2019/01/21"},
+    {title: "えがお・シング・あ・ソング"         , easy: 8, normal: 14, hard: 19, expert: 26, band_id: 5, style: 1, delivery: "2019/04/26"},
+    {title: "にこ×にこ=ハイパースマイルパワー！"  , easy: 9, normal: 14, hard: 18, expert: 26, band_id: 5, style: 1, delivery: "2019/05/21"},
+    {title: "スマイルブーケでた〜まや〜！"        , easy: 8, normal: 13, hard: 17, expert: 24, band_id: 5, style: 1, delivery: "2019/08/20"},
+    {title: "おもいでイルミネーション"           , easy: 9, normal: 13, hard: 19, expert: 25, band_id: 5, style: 1, delivery: "2019/11/30"},
+    {title: "えがお・シング・あ・ソング FULL"    , easy: 9, normal: 15, hard: 20, expert: 27, band_id: 5, style: 1, delivery: "2019/12/24"},
+    {title: "うぃーきゃん☆フレフレっ！"          , easy: 9, normal: 15, hard: 28, expert: 26, band_id: 5, style: 1, delivery: "2020/03/31"},
+
+    #Morfonica
+    # {title: ""            , easy: , normal: , hard: , expert: , special: , band_id: 7, style: 1, delivery: "2017/03/16"},
 
   ]
 )
