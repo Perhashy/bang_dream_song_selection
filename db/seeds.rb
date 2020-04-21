@@ -154,7 +154,7 @@ Song.create!(
     {title: "Little Busters!"               , easy: 7, normal: 13, hard: 17, expert: 25, band_id: 1, style: 2, delivery: "2017/04/24"},
     {title: "正解はひとつ!じゃない!!"          , easy: 7, normal: 13, hard: 18, expert: 25, band_id: 8, style: 2, delivery: "2017/04/30"},
     {title: "天体観測"                       , easy: 7, normal: 14, hard: 17, expert: 26, band_id: 8, style: 2, delivery: "2017/05/02"},
-    {title: "God knows…"                    , easy: 10, normal: 15, hard: 21, expert: ,28 special: 26, band_id: 1, style: 2, delivery: "2017/07/11"},
+    {title: "God knows…"                    , easy: 10, normal: 15, hard: 21, expert: 28, special: 26, band_id: 1, style: 2, delivery: "2017/07/11"},
     {title: "only my railgun"               , easy: 9, normal: 15, hard: 19, expert: 26, band_id: 1, style: 2, delivery: "2017/08/26"},
     {title: "千本桜"                         , easy: 8, normal: 14, hard: 19, expert: 26, band_id: 1, style: 2, delivery: "2017/11/10"},
     {title: "君じゃなきゃダメみたい"            , easy: 8, normal: 14, hard: 17, expert: 25, band_id: 1, style: 2, delivery: "2018/01/03"},
@@ -178,7 +178,42 @@ Song.create!(
     {title: "群青日和"                       , easy: 8, normal: 13, hard: 17, expert: 26, band_id: 1, style: 2, delivery: "2020/03/28"},
 
     #Afterglowカバー
-    # {title: ""           , easy: , normal: , hard: , expert: , special: , band_id: 1, style: 2, delivery: "2019/03/16"},
+    {title: "カルマ"                        , easy: 6, normal: 12, hard: 18, expert: 26, band_id: 2, style: 2, delivery: "2017/03/16"},
+    {title: "Butter-Fly"                   , easy: 7, normal: 11, hard: 18, expert: 24, special: 26, band_id: 2, style: 2, delivery: "2017/03/16"},
+    {title: "Don’t say “lazy”"             , easy: 8, normal: 12, hard: 18, expert: 26, special: 25, band_id: 2, style: 2, delivery: "2017/03/20"},
+    {title: "great escape"                 , easy: 8, normal: 13, hard: 17, expert: 26, band_id: 2, style: 2, delivery: "2017/07/25"},
+    {title: "アスノヨゾラ哨戒班"              , easy: 10, normal: 15, hard: 19, expert: 26, special: 27, band_id: 2, style: 2, delivery: "2017/08/31"},
+    {title: "READY STEADY GO"              , easy: 7, normal: 13, hard: 17, expert: 24, band_id: 2, style: 2, delivery: "2017/10/27"},
+    {title: "Redo"                         , easy: 9, normal: 14, hard: 20, expert: 27, special: 26, band_id: 2, style: 2, delivery: "2018/01/02"},
+    {title: "プライド革命"                   , easy: 6, normal: 13, hard: 17, expert: 25, special: 26, band_id: 2, style: 2, delivery: "2018/01/24"},
+    {title: "イマジネーション"                , easy: 9, normal: 14, hard: 20, expert: 26, band_id: 2, style: 2, delivery: "2018/05/10"},
+    {title: "Reach Out To The Truth"       , easy: 9, normal: 14, hard: 18, expert: 26, band_id: 2, style: 2, delivery: "2018/07/20"},
+    {title: "ロストワンの号哭"                , easy: 10, normal: 14, hard: 21, expert: 26, band_id: 2, style: 2, delivery: "2018/08/24"},
+    {title: "Crow Song"                    , easy: 8, normal: 14, hard: 20, expert: 26, band_id: 2, style: 2, delivery: "2018/11/16"},
+    {title: "瞬間センチメンタル"              , easy: 8, normal: 14, hard: 19, expert: 26, band_id: 2, style: 2, delivery: "2018/12/30"},
+    {title: "らしさ"                        , easy: 7, normal: 13, hard: 19, expert: 26, band_id: 2, style: 2, delivery: "2019/01/31"},
+    {title: "午夜の待ち合わせ"                , easy: 7, normal: 14, hard: 20, expert: 26, band_id: 2, style: 2, delivery: "2019/05/10"},
+    {title: "青い栞"                        , easy: 7, normal: 13, hard: 17, expert: 24, band_id: 2, style: 2, delivery: "2019/07/13"},
+    {title: "アイのシナリオ"                 , easy: 8, normal: 14, hard: 19, expert: 26, band_id: 2, style: 2, delivery: "2019/09/10"},
+    {title: "天ノ弱"                        , easy: 11, normal: 15, hard: 21, expert: 28, band_id: 2, style: 2, delivery: "2019/12/20"},
+    {title: "GO!!!"                        , easy: 11, normal: 16, hard: 20, expert: 26, band_id: 2, style: 2, delivery: "2020/01/01"},
+    {title: "インフェルノ"                   , easy: 8, normal: 14, hard: 19, expert: 26, band_id: 2, style: 2, delivery: "2020/03/08"},
+    {title: "ロキ"                         , easy: 8, normal: 14, hard: 19, expert: 26, band_id: 2, style: 2, delivery: "2020/03/16"},
+
+    #Pastel＊Palettesカバー
+    # {title: ""           , easy: , normal: , hard: , expert: , special: , band_id: 3, style: 2, delivery: "2017/03/16"},
+
+    #Roseliaカバー
+    # {title: ""           , easy: , normal: , hard: , expert: , special: , band_id: 4, style: 2, delivery: "2017/03/16"},
+
+    #ハロー、ハッピーワールド！カバー
+    # {title: ""           , easy: , normal: , hard: , expert: , special: , band_id: 5, style: 2, delivery: "2017/03/16"},
+
+    #Morfonicaカバー
+    # {title: ""           , easy: , normal: , hard: , expert: , special: , band_id: 7, style: 2, delivery: "2017/03/16"},
+
+    #RAISE A SUILENカバー
+    # {title: ""           , easy: , normal: , hard: , expert: , special: , band_id: 6, style: 2, delivery: "2017/03/16"},
 
   ]
 )
