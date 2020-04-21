@@ -132,7 +132,19 @@ Song.create!(
     {title: "うぃーきゃん☆フレフレっ！"          , easy: 9, normal: 15, hard: 28, expert: 26, band_id: 5, style: 1, delivery: "2020/03/31"},
 
     #Morfonica
-    # {title: ""            , easy: , normal: , hard: , expert: , special: , band_id: 7, style: 1, delivery: "2017/03/16"},
+    {title: "Daylight -デイライト-"            , easy: 8, normal: 14, hard: 20, expert: 26, band_id: 7, style: 1, delivery: "2020/03/16"},
+    {title: "金色へのプレリュード"              , easy: 8, normal: 14, hard: 18, expert: 25, band_id: 7, style: 1, delivery: "2020/03/16"},
+    {title: "ブルームブルーム"                 , easy: 9, normal: 14, hard: 19, expert: 26, band_id: 7, style: 1, delivery: "2020/04/10"},
+
+    #RAISE A SUILEN
+    {title: "R・I・O・T"                     , easy: 7, normal: 12, hard: 20, expert: 26, band_id: 6, style: 1, delivery: "2018/12/12"},
+    {title: "UNSTOPPABLE"                   , easy: 8, normal: 14, hard: 19, expert: 26, band_id: 6, style: 1, delivery: "2019/05/03"},
+
+    #その他
+    {title: "クインティプル☆すまいる"           , easy: 8, normal: 13, hard: 18, expert: 25, band_id: 8, style: 1, delivery: "2018/01/12"},
+    {title: "ピコっと！パピっと！！ガルパ☆ピコ！！！", easy: 9, normal: 14, hard: 19, expert: 26, band_id: 8, style: 1, delivery: "2018/07/05"},
+    {title: "TWiNKLE CiRCLE"                , easy: 9, normal: 15, hard: 19, expert: 25, band_id: 8, style: 1, delivery: "2020/02/22"},
+    {title: "ひとりじゃないんだから"            , easy: 7, normal: 13, hard: 18, expert: 25, band_id: 8, style: 1, delivery: "2018/09/23"},
 
   ]
 )
