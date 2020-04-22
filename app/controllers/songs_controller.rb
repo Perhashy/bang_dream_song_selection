@@ -1,22 +1,22 @@
 class SongsController < ApplicationController
   def index
     @bands = Band.all
-    @original = Song.where(style_id: 1)
-    @cover = Song.where(style_id: 2)
+    @original = Song.where(category_id: 1)
+    @cover = Song.where(category_id: 2)
   end
 
   def search
     select_band_array if params[:band].present?
     select_expert_array if params[:expert].present?
-    select_style_array if params[:style].present?
+    select_category_array if params[:category].present?
     @songs = Song.all
     @songs = @search_band.sort if @search_band.present?
     @songs = @search_expert.sort if @search_expert.present?
-    @songs = @search_style.sort if @search_style.present?
-    @songs = (@search_band & @search_style).sort if @search_band.present? && @search_style.present?
-    @songs = (@search_expert & @search_style).sort if @search_expert.present? && @search_style.present?
+    @songs = @search_category.sort if @search_category.present?
+    @songs = (@search_band & @search_category).sort if @search_band.present? && @search_category.present?
+    @songs = (@search_expert & @search_category).sort if @search_expert.present? && @search_category.present?
     @songs = (@search_band & @search_expert).sort if @search_band.present? && @search_expert.present?
-    @songs = (@search_band & @search_expert & @search_style).sort if @search_band.present? && @search_expert.present? && @search_style.present?
+    @songs = (@search_band & @search_expert & @search_category).sort if @search_band.present? && @search_expert.present? && @search_category.present?
   end
 
   private
@@ -37,7 +37,7 @@ class SongsController < ApplicationController
     end
   end
 
-  def select_style_array
-    @search_style = Song.where('style_id LIKE(?)', "%#{params[:style]}%")
+  def select_category_array
+    @search_category = Song.where('category_id LIKE(?)', "%#{params[:category]}%")
   end
 end
