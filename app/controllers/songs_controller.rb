@@ -8,9 +8,15 @@ class SongsController < ApplicationController
   def search
     select_band_array if params[:band].present?
     select_expert_array if params[:expert].present?
+    select_style_array if params[:style].present?
     @songs = Song.all
     @songs = @search_band.sort if @search_band.present?
-    @songs = (@search_band & @search_expert).sort if @search_expert.present?
+    @songs = @search_expert.sort if @search_expert.present?
+    @songs = @search_style.sort if @search_style.present?
+    @songs = (@search_band & @search_style).sort if @search_band.present? && @search_style.present?
+    @songs = (@search_expert & @search_style).sort if @search_expert.present? && @search_style.present?
+    @songs = (@search_band & @search_expert).sort if @search_band.present? && @search_expert.present?
+    @songs = (@search_band & @search_expert & @search_style).sort if @search_band.present? && @search_expert.present? && @search_style.present?
   end
 
   private
@@ -29,5 +35,9 @@ class SongsController < ApplicationController
     split_expert.each do |expert|
       @search_expert += Song.where('expert LIKE(?)', "%#{expert}%")
     end
+  end
+
+  def select_style_array
+    @search_style = Song.where('style_id LIKE(?)', "%#{params[:style]}%")
   end
 end
