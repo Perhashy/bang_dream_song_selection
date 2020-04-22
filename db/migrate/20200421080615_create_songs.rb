@@ -8,7 +8,7 @@ class CreateSongs < ActiveRecord::Migration[5.2]
       t.integer :expert, null: false
       t.integer :special
       t.integer :band_id, null: false
-      t.integer :style, null: false
+      t.integer :style_id, null: false
       t.date :delivery, null: false
       t.timestamps
     end
