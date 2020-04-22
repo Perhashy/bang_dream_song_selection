@@ -1,3 +1,10 @@
+- @split_band.each do |n|
+  = @bands.find(n).name
+- if @split_expert.present?
+  - @split_expert.each do |n|
+    = n
+- if @split_category.present?
+  = @categorys.find(@split_category).name
 ＜楽曲一覧＞
 .top__song__list--original
   %table{:border => "1"}

@@ -12,10 +12,17 @@
   = link_to "始める！", "#"
 
   = form_with(url: search_songs_path, local: true, method: :get) do |f|
+    バンド
     = f.collection_check_boxes :band, Band.all, :id, :name, include_hidden: false
+    %br
+    難易度
+    EXPERT
     = f.collection_check_boxes :expert, Song.group(:expert), :expert, :expert, include_hidden: false
+    %br
+    カテゴリ
     = f.collection_select :category, Category.all, :id, :name, prompt:"すべて"
-    = f.submit
+    %br
+    = f.submit "絞り込む"
 
   .top__song
     ＜バンド一覧＞
