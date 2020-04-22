@@ -1,10 +1,30 @@
-- @split_band.each do |n|
-  = @bands.find(n).name
+絞り込み内容
+%br
+
+バンド
+- if @split_band.present?
+  - @split_band.each do |n|
+    = @bands.find(n).name
+-else
+  全バンド
+%br
+
+難易度
 - if @split_expert.present?
+  EXPERT
   - @split_expert.each do |n|
     = n
+- else
+  指定なし
+%br
+
+カテゴリ
 - if @split_category.present?
   = @categorys.find(@split_category).name
+- else
+  すべて
+%br
+
 ＜楽曲一覧＞
 .top__song__list--original
   %table{:border => "1"}
