@@ -251,13 +251,38 @@ Song.create!(
     {title: "Bad Apple!! feat. nomico"  , easy: 11, normal: 15, hard: 18, expert: 26, band_id: 4, style_id: 2, delivery: "2020/03/21"},
 
     #ハロー、ハッピーワールド！カバー
-    # {title: ""           , easy: , normal: , hard: , expert: , special: , band_id: 5, style_id: 2, delivery: "2017/03/16"},
+    {title: "シュガーソングとビターステップ" , easy: 9, normal: 14, hard: 19, expert: 28, special: 25, band_id: 5, style_id: 2, delivery: "2017/03/16"},
+    {title: "いーあるふぁんくらぶ"         , easy: 7, normal: 11, hard: 18, expert: 26, special: 26, band_id: 5, style_id: 2, delivery: "2017/03/16"},
+    {title: "シルエット"                 , easy: 7, normal: 14, hard: 18, expert: 25, band_id: 5, style_id: 2, delivery: "2017/04/03"},
+    {title: "ハッピーサマーウェディング"    , easy: 8, normal: 14, hard: 18, expert: 26, band_id: 5, style_id: 2, delivery: "2017/06/10"},
+    {title: "ひまわりの約束"              , easy: 8, normal: 13, hard: 16, expert: 21, band_id: 5, style_id: 2, delivery: "2017/08/12"},
+    {title: "ロメオ"                     , easy: 8, normal: 13, hard: 18, expert: 25, band_id: 5, style_id: 2, delivery: "2017/10/20"},
+    {title: "恋は混沌の隷也"              , easy: 7, normal: 13, hard: 20, expert: 26, band_id: 5, style_id: 2, delivery: "2017/11/21"},
+    {title: "Dragon Night"              , easy: 7, normal: 11, hard: 17, expert: 23, band_id: 5, style_id: 2, delivery: "2017/12/31"},
+    {title: "fantastic dreamer"         , easy: 8, normal: 14, hard: 18, expert: 25, band_id: 5, style_id: 2, delivery: "2018/02/28"},
+    {title: "ハレ晴レユカイ"              , easy: 9, normal: 14, hard: 20, expert: 26, band_id: 8, style_id: 2, delivery: "2018/03/10"},
+    {title: "太陽曰く燃えよカオス"         , easy: 9, normal: 15, hard: 20, expert: 26, band_id: 5, style_id: 2, delivery: "2018/05/31"},
+    {title: "GO! GO! MANIAC"            , easy: 9, normal: 14, hard: 20, expert: 26, band_id: 5, style_id: 2, delivery: "2018/08/10"},
+    {title: "エイリアンエイリアン"         , easy: 10, normal: 15, hard: 20, expert: 25, band_id: 5, style_id: 2, delivery: "2018/08/25"},
+    {title: "新宝島"                     , easy: 8, normal: 13, hard: 17, expert: 24, band_id: 5, style_id: 2, delivery: "2018/09/20"},
+    {title: "エクストラ・マジック・アワー"  , easy: 8, normal: 13, hard: 18, expert: 27, band_id: 5, style_id: 2, delivery: "2018/12/10"},
+    {title: "回レ！雪月花"               , easy: 10, normal: 15, hard: 21, expert: 27, band_id: 5, style_id: 2, delivery: "2019/01/02"},
+    {title: "StaRt"                    , easy: 8, normal: 14, hard: 19, expert: 26, band_id: 5, style_id: 2, delivery: "2019/03/31"},
+    {title: "ノーポイッ！"               , easy: 8, normal: 14, hard: 18, expert: 25, band_id: 5, style_id: 2, delivery: "2019/04/27"},
+    {title: "恋愛裁判"                  , easy: 9, normal: 14, hard: 18, expert: 25, band_id: 5, style_id: 2, delivery: "2019/06/20"},
+    {title: "上海ハニー"                 , easy: 9, normal: 13, hard: 18, expert: 25, band_id: 5, style_id: 2, delivery: "2019/07/20"},
+    {title: "コレカラ"                  , easy: 8, normal: 13, hard: 17, expert: 25, band_id: 5, style_id: 2, delivery: "2019/10/11"},
+    {title: "全力少年"                  , easy: 9, normal: 14, hard: 17, expert: 25, band_id: 5, style_id: 2, delivery: "2019/12/10"},
+    {title: "ドレミファロンド"            , easy: 6, normal: 12, hard: 18, expert: 24, band_id: 5, style_id: 2, delivery: "2020/02/20"},
+    {title: "POP TEAM EPIC"            , easy: 7, normal: 13, hard: 17, expert: 25, band_id: 5, style_id: 2, delivery: "2020/03/16"},
 
     #Morfonicaカバー
-    # {title: ""           , easy: , normal: , hard: , expert: , special: , band_id: 7, style_id: 2, delivery: "2017/03/16"},
+    {title: "メリッサ"                  , easy: 8, normal: 13, hard: 17, expert: 25, band_id: 7, style_id: 2, delivery: "2020/03/16"},
+    {title: "chAngE"                   , easy: 8, normal: 14, hard: 18, expert: 26, band_id: 7, style_id: 2, delivery: "2020/03/21"},
 
     #RAISE A SUILENカバー
-    # {title: ""           , easy: , normal: , hard: , expert: , special: , band_id: 6, style_id: 2, delivery: "2017/03/16"},
+    {title: "1/3の純情な感情"            , easy: 7, normal: 13, hard: 18, expert: 25, band_id: 6, style_id: 2, delivery: "2019/07/14"},
+    {title: "激動"                      , easy: 9, normal: 13, hard: 18, expert: 26, band_id: 6, style_id: 2, delivery: "2019/10/26"},
 
   ]
 )
