@@ -24,7 +24,29 @@
 - else
   すべて
 %br
-
+ランダム
+- song = @songs.sample
+%table{:border => "1"}
+  %tr
+    %th 曲名
+    %th バンド名
+    %th EASY
+    %th NORMAL
+    %th HARD
+    %th EXPERT
+    %th SPECIAL
+    %th 配信日
+    %th カテゴリ
+  %tr
+    %td #{song.title}
+    %td #{song.band.name}
+    %td #{song.easy}
+    %td #{song.normal}
+    %td #{song.hard}
+    %td #{song.expert}
+    %td #{song.special}
+    %td #{song.delivery}
+    %td #{song.category.name}
 ＜楽曲一覧＞
 .top__song__list--original
   %table{:border => "1"}
@@ -37,7 +59,7 @@
       %th EXPERT
       %th SPECIAL
       %th 配信日
-      %th スタイル
+      %th カテゴリ
     - @songs.each do |song|
       %tr
         %td #{song.title}
