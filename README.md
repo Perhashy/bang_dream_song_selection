@@ -1,24 +1,10 @@
-# README
+# 概要
+スマホゲーム『バンドリ！ガールズバンドパーティ！』におけるフリーライブの選曲をサポートするアプリです！  
+皆さんは、楽曲選びに困ったことはありませんか？  
+次何やろう？と悩み、長々と楽曲一覧をスクロールした経験があるのではないですか？  
+そんなあなたのために条件に合わせて自動で選曲します！
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# 機能
+条件を指定して絞り込み検索ができる  
+検索結果をランダムで一曲選曲  
+更新ボタンでランダム表示を更新できる！
