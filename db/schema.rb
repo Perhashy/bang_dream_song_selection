@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 2020_04_21_080615) do
     t.integer "expert", null: false
     t.integer "special"
     t.integer "band_id", null: false
-    t.integer "style_id", null: false
+    t.integer "category_id", null: false
     t.date "delivery", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
