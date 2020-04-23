@@ -7,21 +7,34 @@
     %br
     次何やろう？と悩み、長々と楽曲一覧をスクロールした経験があるのではないですか？
     %br
-    そんなあなたのために条件に合わせて自動で選曲します！
+    %h3 そんなあなたのために条件に合わせて自動で選曲します！
+    %br
+    .top__message--info
+      %h2 まずは絞り込み検索してください
+      %p ※チェックをしない場合はすべて選択になります
+  .form
+    = form_with(url: search_songs_path, local: true, method: :get) do |f|
+      .form-box
+        .form-box__title
+          バンド
+        .form-box__list
+          = f.collection_check_boxes :band, Band.all, :id, :name, include_hidden: false do |b|
+            .check_box
+              = b.check_box
+              = b.label
+      .form-box
+        .form-box__title
+          難易度
+        .form-box__level
+          EXPERT
+        .form-box__list
+          = f.collection_check_boxes :expert, Song.group(:expert), :expert, :expert, include_hidden: false do |b|
+            .check_box
+              = b.check_box
+              = b.label
 
-  まずは絞り込み検索してください
-  %br
-  チェックをしない場合はすべて選択になります
-
-  = form_with(url: search_songs_path, local: true, method: :get) do |f|
-    バンド
-    = f.collection_check_boxes :band, Band.all, :id, :name, include_hidden: false
-    %br
-    難易度
-    EXPERT
-    = f.collection_check_boxes :expert, Song.group(:expert), :expert, :expert, include_hidden: false
-    %br
-    カテゴリ
-    = f.collection_select :category, Category.all, :id, :name, prompt:"すべて"
-    %br
-    = f.submit "絞り込む"
+      .form-box
+        .form-box__title
+          カテゴリ
+        = f.collection_select :category, Category.all, :id, :name, prompt:"すべて"
+      = f.submit "決定", class: "submit"
