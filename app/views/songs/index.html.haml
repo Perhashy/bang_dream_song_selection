@@ -9,7 +9,9 @@
     %br
     そんなあなたのために条件に合わせて自動で選曲します！
 
-  = link_to "始める！", "#"
+  まずは絞り込み検索してください
+  %br
+  チェックをしない場合はすべて選択になります
 
   = form_with(url: search_songs_path, local: true, method: :get) do |f|
     バンド
@@ -23,55 +25,3 @@
     = f.collection_select :category, Category.all, :id, :name, prompt:"すべて"
     %br
     = f.submit "絞り込む"
-
-  .top__song
-    ＜バンド一覧＞
-    .top__song__list
-      - @bands.each do |band|
-        = "・#{band.name}"
-        %br
-      ＜楽曲一覧＞
-      .top__song__list--original
-        %table{:border => "1"}
-          %tr
-            %th 曲名
-            %th バンド名
-            %th EASY
-            %th NORMAL
-            %th HARD
-            %th EXPERT
-            %th SPECIAL
-            %th 配信日
-            %th カテゴリ
-          - @original.each do |song|
-            %tr
-              %td #{song.title}
-              %td #{song.band.name}
-              %td #{song.easy}
-              %td #{song.normal}
-              %td #{song.hard}
-              %td #{song.expert}
-              %td #{song.special}
-              %td #{song.delivery}
-              %td #{song.category.name}
-          %tr
-            %th 曲名
-            %th バンド名
-            %th EASY
-            %th NORMAL
-            %th HARD
-            %th EXPERT
-            %th SPECIAL
-            %th 配信日
-            %th カテゴリ
-          - @cover.each do |song|
-            %tr
-              %td #{song.title}
-              %td #{song.band.name}
-              %td #{song.easy}
-              %td #{song.normal}
-              %td #{song.hard}
-              %td #{song.expert}
-              %td #{song.special}
-              %td #{song.delivery}
-              %td #{song.category.name}

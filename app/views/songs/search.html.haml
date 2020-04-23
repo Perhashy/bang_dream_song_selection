@@ -25,8 +25,14 @@
   すべて
 %br
 - if @songs.present?
-  ランダム
+  ランダム1曲
   - song = @songs.sample
+  :javascript
+    function koshin(){
+      location.reload();
+    }
+  %input{:onclick => "koshin()", :type => "button", :value => "更新"}/
+
   %table{:border => "1"}
     %tr
       %th 曲名
