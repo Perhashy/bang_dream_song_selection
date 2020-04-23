@@ -42,6 +42,7 @@
       - song = @songs.sample
       %table{border: "1", class: "table"}
         %tr
+          %th
           %th 曲名
           %th バンド名
           %th EASY
@@ -52,19 +53,21 @@
           %th 配信日
           %th カテゴリ
         %tr
+          %td{class: "band#{song.band_id}"}
           %td.table-title #{song.title}
-          %td.table-band #{song.band.name}
-          %td.table-level #{song.easy}
-          %td.table-level #{song.normal}
-          %td.table-level #{song.hard}
-          %td.table-level #{song.expert}
-          %td.table-level #{song.special}
+          %td.table-band{class: "#{song.band.name}"} #{song.band.name}
+          %td.table-level.easy #{song.easy}
+          %td.table-level.normal #{song.normal}
+          %td.table-level.hard #{song.hard}
+          %td.table-level.expert #{song.expert}
+          %td.table-level.special #{song.special}
           %td.table-delivery #{song.delivery}
-          %td.table-category #{song.category.name}
+          %td.table-category{class: "category#{song.category_id}"} #{song.category.name}
     .search__songs
       %h1 ＜楽曲一覧＞
       %table{border: "1", class: "table"}
         %tr
+          %th
           %th 曲名
           %th バンド名
           %th EASY
@@ -76,15 +79,16 @@
           %th カテゴリ
         - @songs.each do |song|
           %tr
+            %td{class: "band#{song.band_id}"}
             %td.table-title #{song.title}
             %td.table-band #{song.band.name}
-            %td.table-level #{song.easy}
-            %td.table-level #{song.normal}
-            %td.table-level #{song.hard}
-            %td.table-level #{song.expert}
-            %td.table-level #{song.special}
+            %td.table-level.easy #{song.easy}
+            %td.table-level.normal #{song.normal}
+            %td.table-level.hard #{song.hard}
+            %td.table-level.expert #{song.expert}
+            %td.table-level.special #{song.special}
             %td.table-delivery #{song.delivery}
-            %td.table-category #{song.category.name}
+            %td.table-category{class: "category#{song.category_id}"} #{song.category.name}
   - else
     %table{:border => "1"}
       %tr
