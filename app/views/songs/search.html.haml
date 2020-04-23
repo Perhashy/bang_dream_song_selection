@@ -1,61 +1,91 @@
-絞り込み内容
-%br
+.search
+  .search__box
+    %h1 絞り込み内容
+    .search__box__list
+      .search__box__list--title
+        バンド
+      .search__box__list--value
+        - if @split_band.present?
+          - @split_band.each do |n|
+            = @bands.find(n).name
+        -else
+          全バンド
 
-バンド
-- if @split_band.present?
-  - @split_band.each do |n|
-    = @bands.find(n).name
--else
-  全バンド
-%br
+    .search__box__list
+      .search__box__list--title
+        難易度
+      .search__box__list--value
+        - if @split_expert.present?
+          EXPERT
+          - @split_expert.each do |n|
+            = n
+        - else
+          指定なし
 
-難易度
-- if @split_expert.present?
-  EXPERT
-  - @split_expert.each do |n|
-    = n
-- else
-  指定なし
-%br
+    .search__box__list
+      .search__box__list--title
+        カテゴリ
+      .search__box__list--value
+        - if @split_category.present?
+          = @categorys.find(@split_category).name
+        - else
+          すべて
+  - if @songs.present?
+    .search__songs
+      %h1 ランダム1曲
+      :javascript
+        function koshin(){
+          location.reload();
+        }
+      %input{onclick: "koshin()", type: "button", value: "更新", class:"search__songs-random"}/
 
-カテゴリ
-- if @split_category.present?
-  = @categorys.find(@split_category).name
-- else
-  すべて
-%br
-- if @songs.present?
-  ランダム1曲
-  - song = @songs.sample
-  :javascript
-    function koshin(){
-      location.reload();
-    }
-  %input{:onclick => "koshin()", :type => "button", :value => "更新"}/
-
-  %table{:border => "1"}
-    %tr
-      %th 曲名
-      %th バンド名
-      %th EASY
-      %th NORMAL
-      %th HARD
-      %th EXPERT
-      %th SPECIAL
-      %th 配信日
-      %th カテゴリ
-    %tr
-      %td #{song.title}
-      %td #{song.band.name}
-      %td #{song.easy}
-      %td #{song.normal}
-      %td #{song.hard}
-      %td #{song.expert}
-      %td #{song.special}
-      %td #{song.delivery}
-      %td #{song.category.name}
-  ＜楽曲一覧＞
-  .top__song__list--original
+      - song = @songs.sample
+      %table{border: "1", class: "table"}
+        %tr
+          %th 曲名
+          %th バンド名
+          %th EASY
+          %th NORMAL
+          %th HARD
+          %th EXPERT
+          %th SPECIAL
+          %th 配信日
+          %th カテゴリ
+        %tr
+          %td.table-title #{song.title}
+          %td.table-band #{song.band.name}
+          %td.table-level #{song.easy}
+          %td.table-level #{song.normal}
+          %td.table-level #{song.hard}
+          %td.table-level #{song.expert}
+          %td.table-level #{song.special}
+          %td.table-delivery #{song.delivery}
+          %td.table-category #{song.category.name}
+    .search__songs
+      %h1 ＜楽曲一覧＞
+      %table{border: "1", class: "table"}
+        %tr
+          %th 曲名
+          %th バンド名
+          %th EASY
+          %th NORMAL
+          %th HARD
+          %th EXPERT
+          %th SPECIAL
+          %th 配信日
+          %th カテゴリ
+        - @songs.each do |song|
+          %tr
+            %td.table-title #{song.title}
+            %td.table-band #{song.band.name}
+            %td.table-level #{song.easy}
+            %td.table-level #{song.normal}
+            %td.table-level #{song.hard}
+            %td.table-level #{song.expert}
+            %td.table-level #{song.special}
+            %td.table-delivery #{song.delivery}
+            %td.table-category #{song.category.name}
+  - else
     %table{:border => "1"}
       %tr
         %th 曲名
@@ -67,28 +97,5 @@
         %th SPECIAL
         %th 配信日
         %th カテゴリ
-      - @songs.each do |song|
-        %tr
-          %td #{song.title}
-          %td #{song.band.name}
-          %td #{song.easy}
-          %td #{song.normal}
-          %td #{song.hard}
-          %td #{song.expert}
-          %td #{song.special}
-          %td #{song.delivery}
-          %td #{song.category.name}
-- else
-  %table{:border => "1"}
-    %tr
-      %th 曲名
-      %th バンド名
-      %th EASY
-      %th NORMAL
-      %th HARD
-      %th EXPERT
-      %th SPECIAL
-      %th 配信日
-      %th カテゴリ
-  該当楽曲なし
+    該当楽曲なし
 
