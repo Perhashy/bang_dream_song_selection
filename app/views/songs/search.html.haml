@@ -1,6 +1,6 @@
 .search
   .search__box
-    %h1 絞り込み内容
+    %h1 ＜絞り込み内容＞
     .search__box__list
       .search__box__list--title
         バンド
@@ -30,14 +30,10 @@
           = @categorys.find(@split_category).name
         - else
           すべて
-    :javascript
-      function modoru(){
-        history.back();
-      }
-    %input{onclick: "modoru()", type: "button", value: "再選択", class: "search__box-back"}/
+    = link_to  "更新", root_path, class: "search__box-back"
   - if @songs.present?
     .search__songs
-      %h1 ランダム1曲
+      %h1 ＜ランダム1曲＞
       :javascript
         function koshin(){
           location.reload();
