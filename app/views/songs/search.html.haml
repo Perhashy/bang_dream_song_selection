@@ -30,6 +30,11 @@
           = @categorys.find(@split_category).name
         - else
           すべて
+    :javascript
+      function modoru(){
+        history.back();
+      }
+    %input{onclick: "modoru()", type: "button", value: "再選択", class: "search__box-back"}/
   - if @songs.present?
     .search__songs
       %h1 ランダム1曲

@@ -63,7 +63,7 @@
             display: none; /* チェックボックスを非表示にする */
           }
           input[type="checkbox"]:checked + label {
-            background: rgba(255,20,147,0.7);/* マウス選択時の背景色を指定する */
+            background: linear-gradient(rgba(255,20,147,0.3), rgb(255,20,147));/* マウス選択時の背景色を指定する */
             // color: #ffffff; /* マウス選択時のフォント色を指定する */
           }
           label {
@@ -78,29 +78,59 @@
             color: #000; /* フォントの色を指定 */
             border: 2px solid #a9a9a9;/* ラベルの境界線を実線で指定する */
             border-radius: 5px; /* 角丸を指定する */
+            &:hover{
+              background-color: rgba(255,20,147,0.3);
+            }
           }
 
         }
       }
       select{
         margin-left: 10px;
+        cursor: pointer;
+        &:hover{
+          background-color: rgba(255,20,147,0.3);
+        }
       }
     }
-    .submit{
-      display: block;
-      height: 40px;
-      width: 150px;
-      background-color: #ff1493;
+    .action{
+      width: 320px;
       margin: 0 auto;
-      border: 2px solid red;
-      border-radius: 10px;
-      font-size: 25px;
-      font-weight: bolder;
-      color: #fff;
-      -webkit-text-stroke: 1px red;
-      cursor: pointer;
-      &:hover{
-        opacity: 0.5;
+      display: flex;
+      .render{
+        display: block;
+        height: 40px;
+        width: 150px;
+        background-color: #1e90ff;
+        background: linear-gradient(rgba(30,144,255,0.3), rgb(30,30,255));
+        border: 2px solid blue;
+        border-radius: 10px;
+        margin-right: 20px;
+        font-size: 25px;
+        font-weight: bolder;
+        color: #fff;
+        -webkit-text-stroke: 1px blue;
+        cursor: pointer;
+        &:hover{
+          opacity: 0.5;
+        }
+
+      }
+      .submit{
+        display: block;
+        height: 40px;
+        width: 150px;
+        background: linear-gradient(rgba(255,20,147,0.4), rgb(255,20,147));
+        border: 2px solid red;
+        border-radius: 10px;
+        font-size: 25px;
+        font-weight: bolder;
+        color: #fff;
+        -webkit-text-stroke: 1px red;
+        cursor: pointer;
+        &:hover{
+          opacity: 0.5;
+        }
       }
     }
   }
