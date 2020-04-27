@@ -41,6 +41,7 @@ Song.create!(
     {title: "開けたらDream！"                  , easy: 9, normal: 14, hard: 20, expert: 25, band_id: 1, category_id: 1, delivery: "2020/01/10"},
     {title: "Step×Step！"                     , easy: 7, normal: 14, hard: 17, expert: 25, band_id: 1, category_id: 1, delivery: "2020/02/07"},
     {title: "キズナミュージック♪ FULL"           , easy: 10, normal: 15, hard: 19, expert: 26, band_id: 1, category_id: 1, delivery: "2020/02/23"},
+    {title: "ミライトレイン"                    , easy: 9, normal: 14, hard: 17, expert: 25, band_id: 1, category_id: 1, delivery: "2020/04/24"},
     {title: "Don’t be afraid"                 , easy: 6, normal: 12, hard: 16, expert: 25, band_id: 8, category_id: 1, delivery: "2017/03/25"},
     {title: "HappyHappyParty！"               , easy: 6, normal: 12, hard: 17, expert: 23, band_id: 1, category_id: 1, delivery: "2017/03/16"},
     {title: "夏のドーン！"                      , easy: 8, normal: 14, hard: 17, expert: 24, band_id: 1, category_id: 1, delivery: "2017/08/10"},
@@ -112,6 +113,7 @@ Song.create!(
     {title: "FIRE BIRD FULL"                 , easy: 10, normal: 15, hard: 19, expert: 28, band_id: 4, category_id: 1, delivery: "2020/01/23"},
     {title: "Song I am."                     , easy: 8, normal: 15, hard: 21, expert: 27, band_id: 4, category_id: 1, delivery: "2020/02/10"},
     {title: "Break your desire"              , easy: 8, normal: 15, hard: 19, expert: 26, band_id: 4, category_id: 1, delivery: "2020/02/25"},
+    {title: "Avant-garde HISTORY"            , easy: 9, normal: 14, hard: 19, expert: 26, band_id: 4, category_id: 1, delivery: "2020/04/24"},
 
     #ハロー、ハッピーワールド！オリジナル
     {title: "えがおのオーケストラっ！"           , easy: 6, normal: 11, hard: 16, expert: 23, special: 25, band_id: 5, category_id: 1, delivery: "2017/03/16"},
@@ -139,6 +141,7 @@ Song.create!(
     #RAISE A SUILEN
     {title: "R・I・O・T"                     , easy: 7, normal: 12, hard: 20, expert: 26, band_id: 6, category_id: 1, delivery: "2018/12/12"},
     {title: "UNSTOPPABLE"                   , easy: 8, normal: 14, hard: 19, expert: 26, band_id: 6, category_id: 1, delivery: "2019/05/03"},
+    {title: "A DECLARATION OF ×××"          , easy: 8, normal: 14, hard: 19, expert: 26, band_id: 6, category_id: 1, delivery: "2020/04/25"},
 
     #その他
     {title: "クインティプル☆すまいる"           , easy: 8, normal: 13, hard: 18, expert: 25, band_id: 8, category_id: 1, delivery: "2018/01/12"},
