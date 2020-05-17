@@ -1,0 +1,66 @@
+.show{
+  width: 500px;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  &-title{
+    font-size: 30px;
+    border-bottom: 2px dotted lightgray;
+  }
+  &-band{
+    padding-top: 6px;
+  }
+  &-delivery{
+    padding-top: 6px;
+  }
+  &-category{
+    padding-top: 6px;
+    padding-bottom: 10px;
+  }
+  h2{
+    background-color: gray;
+    color:#fff;
+    border-radius: 15px;
+  }
+  &-level{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+
+    .level-box{
+      &-title{
+        display: inline-block;
+        width: 90px;
+        color:#fff;
+        text-align: center;
+        border-radius: 5px;
+      }
+      .easy{
+        background-color: rgb(65,105,225);
+        -webkit-text-stroke: 1px darken(rgb(65,105,225), 10%);
+      }
+      .normal{
+        background-color: rgb(144,238,144);
+        -webkit-text-stroke: 1px darken(rgb(144,238,144), 10%);
+      }
+      .hard{
+        background-color: rgb(255,215,0);
+        -webkit-text-stroke: 1px darken(rgb(255,215,0), 10%);
+      }
+      .expert{
+        background-color: rgb(255,0,0);
+        -webkit-text-stroke: 1px darken(rgb(255,0,0), 10%);
+      }
+      .special{
+        background-color: rgb(255,20,147);
+        -webkit-text-stroke: 1px darken(rgb(255,20,147), 10%);
+      }
+
+      &-value{
+        text-align: center;
+      }
+    }
+  }
+}
