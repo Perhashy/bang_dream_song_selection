@@ -66,9 +66,9 @@
       &:hover{
         opacity: 0.5;
       }
-  }
+    }
     .table{
-      min-width: 1161px;
+      min-width: 1173px;
       margin: 10px auto;
       th{
         text-align: center;
@@ -76,6 +76,8 @@
       &-title{
         width: 330px;
         padding:0 5px;
+        text-decoration: none;
+        color:#000;
       }
       &-band{
         width: 220px;

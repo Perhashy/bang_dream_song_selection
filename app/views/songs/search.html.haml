@@ -55,7 +55,8 @@
           %th カテゴリ
         %tr
           %td{class: "band#{song.band_id}"}
-          %td.table-title #{song.title}
+          %td
+            = link_to "#{song.title}", "#", class: "table-title"
           %td.table-band{class: "#{song.band.name}"} #{song.band.name}
           %td.table-level.easy #{song.easy}
           %td.table-level.normal #{song.normal}
@@ -81,7 +82,8 @@
         - @songs.each do |song|
           %tr
             %td{class: "band#{song.band_id}"}
-            %td.table-title #{song.title}
+            %td
+              = link_to "#{song.title}", "#", class: "table-title"
             %td.table-band #{song.band.name}
             %td.table-level.easy #{song.easy}
             %td.table-level.normal #{song.normal}
