@@ -5,6 +5,9 @@ class SongsController < ApplicationController
     @cover = Song.where(category_id: 2)
   end
 
+  def show
+    @song = Song.find(params[:id])
+  end
   def search
     @bands = Band.all
     @categorys = Category.all
