@@ -148,6 +148,7 @@ Song.create!(
     {title: "ピコっと！パピっと！！ガルパ☆ピコ！！！", easy: 9, normal: 14, hard: 19, expert: 26, band_id: 8, category_id: 1, delivery: "2018/07/05"},
     {title: "TWiNKLE CiRCLE"                , easy: 9, normal: 15, hard: 19, expert: 25, band_id: 8, category_id: 1, delivery: "2020/02/22"},
     {title: "ひとりじゃないんだから"            , easy: 7, normal: 13, hard: 18, expert: 25, band_id: 8, category_id: 1, delivery: "2018/09/23"},
+    {title: "大盛り一丁！ガルパ☆ピコ"           , easy: 10, normal: 15, hard: 19, expert: 26, band_id: 8, category_id: 1, delivery: "2020/05/07"},
 
 
     #Poppin'Partyカバー
@@ -179,6 +180,7 @@ Song.create!(
     {title: "ブルーバード"                    , easy: 10, normal: 14, hard: 18, expert: 25, band_id: 1, category_id: 2, delivery: "2019/10/31"},
     {title: "創聖のアクエリオン"               , easy: 7, normal: 13, hard: 17, expert: 25, band_id: 8, category_id: 2, delivery: "2019/12/31"},
     {title: "群青日和"                       , easy: 8, normal: 13, hard: 17, expert: 26, band_id: 1, category_id: 2, delivery: "2020/03/28"},
+    {title: "UNION"                         , easy: 10, normal: 14, hard: 19, expert: 26, band_id: 1, category_id: 2, delivery: "2020/04/30"},
 
     #Afterglowカバー
     {title: "カルマ"                        , easy: 6, normal: 12, hard: 18, expert: 26, band_id: 2, category_id: 2, delivery: "2017/03/16"},
@@ -202,7 +204,7 @@ Song.create!(
     {title: "GO!!!"                        , easy: 11, normal: 16, hard: 20, expert: 26, band_id: 2, category_id: 2, delivery: "2020/01/01"},
     {title: "インフェルノ"                   , easy: 8, normal: 14, hard: 19, expert: 26, band_id: 2, category_id: 2, delivery: "2020/03/08"},
     {title: "ロキ"                         , easy: 8, normal: 14, hard: 19, expert: 26, band_id: 2, category_id: 2, delivery: "2020/03/16"},
-
+    
     #Pastel＊Palettesカバー
     {title: "secret base〜君がくれたもの〜"  , easy: 5, normal: 12, hard: 19, expert: 25, band_id: 3, category_id: 2, delivery: "2017/03/16"},
     {title: "ドリームパレード"               , easy: 6, normal: 13, hard: 18, expert: 26, band_id: 3, category_id: 2, delivery: "2017/03/16"},
@@ -282,6 +284,7 @@ Song.create!(
     #Morfonicaカバー
     {title: "メリッサ"                  , easy: 8, normal: 13, hard: 17, expert: 25, band_id: 7, category_id: 2, delivery: "2020/03/16"},
     {title: "chAngE"                   , easy: 8, normal: 14, hard: 18, expert: 26, band_id: 7, category_id: 2, delivery: "2020/03/21"},
+    {title: "秒針を噛む"                 , easy: 8, normal: 14, hard: 18, expert: 26, band_id: 7, category_id: 2, delivery: "2020/05/10"},
 
     #RAISE A SUILENカバー
     {title: "1/3の純情な感情"            , easy: 7, normal: 13, hard: 18, expert: 25, band_id: 6, category_id: 2, delivery: "2019/07/14"},
