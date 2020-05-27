@@ -56,7 +56,7 @@
         %tr
           %td{class: "band#{song.band_id}"}
           %td
-            = link_to "#{song.title}", "#", class: "table-title"
+            = link_to "#{song.title}", song_path("#{song.id}"), class: "table-title"
           %td.table-band{class: "#{song.band.name}"} #{song.band.name}
           %td.table-level.easy #{song.easy}
           %td.table-level.normal #{song.normal}
@@ -83,7 +83,7 @@
           %tr
             %td{class: "band#{song.band_id}"}
             %td
-              = link_to "#{song.title}", "#", class: "table-title"
+              = link_to "#{song.title}", song_path("#{song.id}"), class: "table-title"
             %td.table-band #{song.band.name}
             %td.table-level.easy #{song.easy}
             %td.table-level.normal #{song.normal}

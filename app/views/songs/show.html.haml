@@ -1,0 +1,37 @@
+.show
+  .show-title
+    = @song.title
+  .show-band
+    演奏バンド：#{@song.band.name}
+  .show-delivery
+    配信日：#{@song.delivery}
+  .show-category
+    カテゴリ：#{@song.category.name}
+  %h2 楽曲レベル
+  .show-level
+    .level-box
+      .level-box-title.easy
+        EASY
+      .level-box-value
+        = @song.easy
+    .level-box
+      .level-box-title.normal
+        NORMAL
+      .level-box-value
+        = @song.normal
+    .level-box
+      .level-box-title.hard
+        HARD
+      .level-box-value
+        = @song.hard
+    .level-box
+      .level-box-title.expert
+        EXPERT
+      .level-box-value
+        = @song.expert
+    - if @song.special
+      .level-box
+        .level-box-title.special
+          SPECIAL
+        .level-box-value
+          = @song.special
